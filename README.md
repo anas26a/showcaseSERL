@@ -1,7 +1,3 @@
-Here's an enhanced version of your `README.md` to ensure that any user who clones your project will have all the information they need to run it successfully. I’ll also clarify instructions for dependencies, environment variables, and initial setup.
-
----
-
 # ShowcaseSERL
 
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app). The project is designed to showcase projects in a portfolio-like display with features such as filtering, QR code generation, and kiosk mode.
