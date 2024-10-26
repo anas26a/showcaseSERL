@@ -1,0 +1,112 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #ffffff; /* Light mode background */
+  --foreground: #000000; /* Light mode text color (black) */
+  --button-background: #4a90e2; /* Button color */
+  --button-text: #ffffff; /* Button text color */
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #000000; /* Dark mode background (black) */
+    --foreground: #ffffff; /* Dark mode text color (white) */
+  }
+}
+
+/* Set a global background color and font style */
+body {
+  background-color: var(--background);
+  color: var(--foreground);
+  font-family: Arial, Helvetica, sans-serif;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Styles for dark mode */
+body.dark {
+  background-color: #000000; /* Dark mode background (black) */
+  color: #ffffff; /* Dark mode text color (white) */
+}
+
+/* Style for buttons across the site */
+button {
+  background-color: var(--button-background); /* Button color */
+  color: var(--button-text); /* Button text color */
+  padding: 10px 15px; /* Padding */
+  border: none; /* No border */
+  border-radius: 5px; /* Rounded corners */
+  cursor: pointer; /* Pointer on hover */
+  transition: background-color 0.3s; /* Smooth transition */
+}
+
+button:hover {
+  background-color: #357ab8; /* Darker blue on hover */
+}
+
+/* Styles for input fields */
+input[type="text"] {
+  border: 1px solid #ccc; /* Light gray border */
+  padding: 10px; /* Padding */
+  border-radius: 5px; /* Rounded corners */
+}
+
+/* Style for project cards */
+.project-card {
+  border: 1px solid #ccc; /* Light gray border */
+  border-radius: 8px; /* Rounded corners */
+  padding: 20px; /* Padding */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Light shadow */
+  transition: box-shadow 0.2s; /* Smooth transition */
+}
+
+.project-card:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Darker shadow on hover */
+}
+
+/* Navigation styles */
+.nav {
+  background-color: white;
+}
+
+.nav.dark {
+  background-color: #1e1e1e;
+}
+
+
+:root {
+  /* Light mode colors */
+  --background: #ffffff; /* background */
+  --foreground: #171717; /* text color */
+}
+
+body {
+  background-color: var(--background);
+  color: var(--foreground);
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Dark mode styles */
+body.dark {
+  --background: #1a1a1a; /* vackground */
+  --foreground: #e0e0e0; /* text color */
+}
+
+nav {
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+nav.dark {
+  background-color: #2c2c2c; /* Dark mode nav background */
+  color: #ffffff; /* Dark mode nav text */
+}
+
+.project-card {
+  transition: transform 0.3s, box-shadow 0.3s; /* Smooth transition for transform and box-shadow */
+}
+
+.project-card:hover {
+  transform: translateY(-5px); /* Slight lift effect */
+}
+

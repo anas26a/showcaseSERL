@@ -1,0 +1,99 @@
+[
+  {
+    "id": 1,
+    "title": "TensorFlow",
+    "description": "An open-source platform for machine learning, offering a comprehensive ecosystem of tools, libraries, and resources for research and production.",
+    "tags": ["AI", "Machine Learning", "Python", "Research", "Backend"],
+    "type": "Open Source",
+    "url": "https://github.com/tensorflow/tensorflow",
+    "screenshots": [
+      "https://www.tensorflow.org/static/site-assets/images/marketing/cards/tile_learn_ml_promo.png",
+      "https://www.tensorflow.org/static/site-assets/images/marketing/resources/models-hero.svg"
+    ]
+  },
+  {
+    "id": 2,
+    "title": "React",
+    "description": "A JavaScript library for building user interfaces, developed by Facebook and used for building interactive UIs for web and mobile apps.",
+    "tags": ["JavaScript", "Frontend", "UI", "Web Development", "Open Source"],
+    "type": "Library",
+    "url": "https://github.com/facebook/react",
+    "screenshots": [
+      "https://reactjs.org/logo-og.png",
+      "https://react.dev/images/docs/s_thinking-in-react_ui_outline.png"
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Docker",
+    "description": "Docker is a platform for developing, shipping, and running applications in containers, providing a consistent development environment across multiple machines.",
+    "tags": ["DevOps", "Containers", "Backend", "CI/CD", "Open Source"],
+    "type": "Platform",
+    "url": "https://github.com/docker/docker-ce",
+    "screenshots": [
+      "https://blog.codewithdan.com/wp-content/uploads/2023/06/Docker-Logo.png",
+      "https://learn.microsoft.com/sv-se/dotnet/architecture/microservices/container-docker-introduction/media/docker-containers-images-registries/taxonomy-of-docker-terms-and-concepts.png"
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Vue.js",
+    "description": "A progressive JavaScript framework for building user interfaces and single-page applications, known for its ease of integration and flexibility.",
+    "tags": ["JavaScript", "Frontend", "UI", "Web Development", "Open Source"],
+    "type": "Framework",
+    "url": "https://github.com/vuejs/vue",
+    "screenshots": [
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Vue.js_Logo_2.svg/640px-Vue.js_Logo_2.svg.png",
+      "https://v1.vuejs.org/images/mvvm.png"
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Kubernetes",
+    "description": "An open-source system for automating deployment, scaling, and management of containerized applications, initially developed by Google.",
+    "tags": ["Containers", "Orchestration", "Cloud", "Backend", "DevOps"],
+    "type": "Platform",
+    "url": "https://github.com/kubernetes/kubernetes",
+    "screenshots": [
+      "https://dce0qyjkutl4h.cloudfront.net/wp-content/webp-express/webp-images/uploads/2023/07/Kubernet.png.webp",
+      "https://i0.wp.com/cloudwithease.com/wp-content/uploads/2022/09/what-is-kubernetes-dp.jpg"
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Laravel",
+    "description": "A web application framework with expressive, elegant syntax, aimed at making the development process enjoyable for developers while providing powerful tools.",
+    "tags": ["PHP", "Web Development", "Framework", "Backend", "Open Source"],
+    "type": "Framework",
+    "url": "https://github.com/laravel/laravel",
+    "screenshots": [
+      "https://vistrom.se/uploads/2023/10/laravel-cover.png",
+      "https://www.tisdigitech.com/wp-content/uploads/2023/05/laravel-mvc-arc.jpg"
+    ]
+  },
+  {
+    "id": 7,
+    "title": "Home Assistant",
+    "description": "Open-source home automation platform that focuses on privacy and local control, allowing users to track and control devices in their homes.",
+    "tags": ["IoT", "Python", "Automation", "Home Automation", "Backend"],
+    "type": "Platform",
+    "url": "https://github.com/home-assistant/core",
+    "screenshots": [
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Home_Assistant_Logo.svg/2048px-Home_Assistant_Logo.svg.png",
+      "https://raw.githubusercontent.com/home-assistant/core/dev/.github/assets/screenshot-states.png","https://www.home-assistant.io/images/blog/2024-10-zbt1-issue/art.jpg"
+    ]
+  },
+  {
+    "id": 8,
+    "title": "Next.js",
+    "description": "A React framework for server-side rendering and static site generation, making it easy to build scalable and performant web applications.",
+    "tags": ["JavaScript", "React", "Frontend", "Web Development", "Full Stack"],
+    "type": "Framework",
+    "url": "https://github.com/vercel/next.js",
+    "screenshots": [
+      "https://images.prismic.io/turing/652ec31afbd9a45bcec81965_Top_Features_in_Next_js_13_7f9a32190f.webp?auto=format,compress",
+      "https://miro.medium.com/v2/resize:fit:1200/1*kUKiJUFeCs4rKjjGNUtvUQ.png",
+      "https://teleporthq.io/blog/content/images/2022/04/using-next.js.png"
+    ]
+  }
+]
